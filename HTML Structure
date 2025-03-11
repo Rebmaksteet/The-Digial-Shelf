@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Digital Shelf</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to The Digital Shelf</h1>
+    <nav>
+      <a href="#apps">Apps</a>
+      <a href="#books">Books</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="apps">
+    <h2>Our Apps</h2>
+    <div class="product">
+      <img src="app-image.jpg" alt="App Thumbnail">
+      <p>App Description here.</p>
+      <a href="link-to-app-download" class="cta-button">Get the App</a>
+    </div>
+  </section>
+
+  <section id="books">
+    <h2>Our Digital Books</h2>
+    <div class="product">
+      <img src="book-cover.jpg" alt="Book Cover">
+      <p>Book Description here.</p>
+      <a href="link-to-book-download" class="cta-button">Buy Now</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have questions, feel free to reach out!</p>
+    <a href="mailto:kamberteets@gmail.com" class="cta-button">Email Us</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Digital Shelf</p>
+  </footer>
+</body>
+</html>
